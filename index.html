@@ -1,0 +1,92 @@
+<!--
+Autor: Jorge Marcelo
+Data de Criação: 26/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Carrossel</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+<body>
+
+<!--Tag principal-->
+<main>
+
+<!--Container do carrossel-->
+<section class="container">
+<h1>Carrossel Javascript</h1>
+<figure class="image-container">
+<img src="assets/img/carrossel/1.png" id="img1" class="active slider-img">
+<img src="assets/img/carrossel/2.png" id="img2" class="slider-img">
+<img src="assets/img/carrossel/3.png" id="img3" class="slider-img">
+<img src="assets/img/carrossel/4.png" id="img4" class="slider-img">
+<img src="assets/img/carrossel/5.png" id="img5" class="slider-img">
+</figure>
+
+<!--Container dos circulos indicadores-->
+<article class="contaier-indicadores">
+<button onclick="indicador(0)"></button>
+<button onclick="indicador(1)"></button>
+<button onclick="indicador(2)"></button>
+<button onclick="indicador(3)"></button>
+<button onclick="indicador(4)"></button>
+</article>
+
+<!--Botões de proximo e avançar -->
+<button id="anterior" onclick="anterior()"> &lt; </button>
+<button id="proximo" onclick="proximo()"> &gt; </button>
+
+<!--Rodape e Redes Sociais-->
+<footer>
+<table>
+<tr>
+<td>
+<button class="social" id="github">
+<img src="assets/img/footer/github.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="linkedin">
+<img src="assets/img/footer/linkedin.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="instagram">
+<img src="assets/img/footer/insta.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="threads">
+<img src="assets/img/footer/threads.png">
+</button>
+</td>
+</tr>
+</table>
+</footer>
+
+<h1>By:Jorge Marcelo</h1>
+
+</section>
+
+
+
+
+</main>
+
+
+
+<script src='js/script.js'></script>
+</body>
+</html>
